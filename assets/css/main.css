@@ -1283,10 +1283,12 @@
 			#header nav ul li {
 				padding-left: 0;
 				border-left: solid 1px #ffffff;
+				width: 180px;
 			}
 
 				#header nav ul li:first-child {
 					border-left: 0;
+					width: 180px;
 				}
 
 				#header nav ul li a {
@@ -1322,6 +1324,7 @@
 
 		#header nav.use-middle ul li.is-middle {
 			border-left: 0;
+			width: 180px;
 		}
 
 		body.is-article-visible #header {
