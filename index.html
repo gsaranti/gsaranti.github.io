@@ -39,7 +39,25 @@
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
 						</nav>
+
+						<div class="arrow">
+							<button id="scroll">
+								<i class="fa fa-chevron-down fa-3x" aria-hidden="true"></i></button>
+						</div>
+
 					</header>
+
+					<div id=projects>
+
+						<div class="projects-title">
+							<h1>PROJECTS</h1>
+						</div>
+
+						<div class="projects">
+							<h2>COMING SOON!</h2>
+						</div>
+
+					</div>
 
 				<!-- Main -->
 					<div id="main">
@@ -301,7 +319,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					<footer id="footer">
 						<!-- <p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p> -->
 					</footer>
-
 			</div>
 
 		<!-- BG -->
@@ -315,4 +332,20 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/main.js"></script>
 
 	</body>
+
+	<script>
+	  $(document).ready(function(){
+			$("button").click(function() {
+			    $('html,body').animate({
+			        scrollTop: $(".projects-title").offset().top},
+			        'slow');
+			});
+		});
+
+		// function adjust(){
+		// 	document.getElementById('projects').style.visibility = "hidden";
+		// 	document.getElementById('scroll').style.visibility = "hidden";
+		// }
+
+  </script>
 </html>
