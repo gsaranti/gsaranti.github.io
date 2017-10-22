@@ -1149,6 +1149,7 @@
 	}
 
 	  #projects .projects-title {
+			margin-top: 20px;
 		  display: -moz-flex;
 		  display: -webkit-flex;
 		  display: -ms-flex;
@@ -1165,13 +1166,13 @@
 		  -webkit-justify-content: space-between;
 		  -ms-justify-content: space-between;
 		  justify-content: space-between;
-		  position: absolute;
+		  position: relative;
 			padding: 0;
 	  }
 
-		#projects .projects {
+		#projects .projects-section {
 			top: 200px;
-			margin-bottom: 360px;
+			margin-bottom: 290px;
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -1188,10 +1189,14 @@
 			-webkit-justify-content: space-between;
 			-ms-justify-content: space-between;
 			justify-content: space-between;
-			position: absolute;
+			position: relative;
 			padding: 0;
 			width: 500px;
 		}
+
+	  #projects .scroll {
+		  margin-bottom: 220px;
+	  }
 
 	#wrapper {
 		display: -moz-flex;

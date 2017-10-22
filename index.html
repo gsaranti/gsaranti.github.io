@@ -53,9 +53,12 @@
 							<h1>PROJECTS</h1>
 						</div>
 
-						<div class="projects">
+						<div class="projects-section">
 							<h2>COMING SOON!</h2>
 						</div>
+
+						<div class="scroll"></div>
+
 
 					</div>
 
@@ -330,14 +333,14 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
 	</body>
 
 	<script>
 	  $(document).ready(function(){
 			$("button").click(function() {
+				  console.log($(".projects-section").offset().top)
 			    $('html,body').animate({
-			        scrollTop: $(".projects-title").offset().top},
+			        scrollTop: $(".scroll").offset().top},
 			        'slow');
 			});
 		});
